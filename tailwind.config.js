@@ -13,7 +13,7 @@ module.exports = {
       'vulcan':'#121721',
       'anakiwa' :'#9dcdff',
       'baymany':'#21437d',
-      'athens-gray':'#f4f6f8'
+      'athensgray':'#f4f6f8'
     },
     extend: {},
     screens: {
