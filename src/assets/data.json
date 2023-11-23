@@ -1,4 +1,4 @@
-const jobs = [
+[
   {
     id: 1,
     companySite: "#",
@@ -348,7 +348,7 @@ const jobs = [
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
       ],
     },
-  },
-];
+  }
+]
 
-export default jobs;
+

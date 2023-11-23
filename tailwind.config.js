@@ -10,6 +10,7 @@ module.exports = {
     },
     colors:{
       'royalblue':'#5864e1',
+      // #E05858
       'vulcan':'#121721',
       'anakiwa' :'#9dcdff',
       'baymany':'#21437d',

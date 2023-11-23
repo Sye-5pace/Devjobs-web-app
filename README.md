@@ -1,4 +1,6 @@
-# DevjobsWebApp
+# Devjobs-Web-App
+
+A web based platform using local storage as db, to visualize devjobs; sort/filter jobs on some preference, detailed page for each job and theme for both modes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
