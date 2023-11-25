@@ -10,15 +10,16 @@ import { JobsData } from './interface'
 })
 
 
-export class AppComponent {
+export class AppComponent implements OnInit {
 
-  jobData: JobsData[] = [];
+  jobsData: JobsData[] = [];
 
   constructor(private jobsDataService: JobsDataService){}
 
   ngOnInit() {
     this.jobsDataService.getData().subscribe( data => {
-      this.jobData = data.jobs
+      this.jobsData = data
+      // console.log(this.jobsData)
     })
   }
 }
