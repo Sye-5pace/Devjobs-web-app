@@ -29,7 +29,6 @@
       ]
     }
   },
-
   {
     "id": 2,
     "companySite": "#",
@@ -337,6 +336,186 @@
       "resTitle":
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
 
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "companySite": "#",
+    "company": "Tech Innovators Inc.",
+    "logo": "./assets/companys/shortly.svg",
+    "link": "techinnovators.com",
+    "position": "Full-stack Developer",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "Remote",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis fuga eius magnam explicabo optio inventore, quod modi aperiam dolorum officiis saepe eveniet, dolor consequatur, atque necessitatibus totam? Nisi, repudiandae.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "companySite": "#",
+    "company": "Data Insights Co.",
+    "logo": "./assets/companys/faceit.svg",
+    "link": "datainsights.co",
+    "position": "Backend Developer",
+    "postedAt": "3d ago",
+    "contract": "Contract",
+    "location": "San Francisco, CA",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam doloribus dolorum fugiat vel incidunt itaque libero, repellendus quibusdam magnam placeat officiis, voluptate saepe voluptatem provident minima expedita iste quidem.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "companySite": "#",
+    "company": "Innovative Tech Solutions",
+    "logo": "./assets/companys/photosnap.svg",
+    "link": "innovativetech.com",
+    "position": "Mobile App Developer",
+    "postedAt": "4mo ago",
+    "contract": "Freelance",
+    "location": "Global",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quam vero asperiores, ipsam sequi dignissimos reprehenderit unde, numquam minima repellat deleniti amet fuga eum quibusdam beatae qui explicabo dolorum quisquam!",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "companySite": "#",
+    "company": "CodeCraft Innovations",
+    "logo": "./assets/companys/shortly.svg",
+    "link": "codecraftinnovations.com",
+    "position": "Machine Learning Engineer",
+    "postedAt": "1w ago",
+    "contract": "Full Time",
+    "location": "Remote",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis enim dolorum placeat reiciendis inventore aspernatur ea, officia voluptate quod, ad recusandae distinctio facere eveniet, repellat culpa soluta nemo commodi.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "companySite": "#",
+    "company": "E-commerce Solutions Inc",
+    "logo": "./assets/companys/insure.svg",
+    "link": "ecommercesolutions.com",
+    "position": "UI/UX Designer",
+    "postedAt": "2mo ago",
+    "contract": "Part Time",
+    "location": "Los Angeles, CA",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "companySite": "#",
+    "company": "Data Wizards Co.",
+    "logo": "./assets/companys/myhome.svg",
+    "link": "datawizards.com",
+    "position": "Data Scientist",
+    "postedAt": "3d ago",
+    "contract": "Contract",
+    "location": "New York, USA",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
       "resItem": [
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",

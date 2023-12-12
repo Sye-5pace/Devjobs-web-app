@@ -10,7 +10,16 @@ module.exports = {
     },
     colors:{
       'royalblue':'#5864e1',
-      // #E05858
+      'pastelgreen':'#58E07F',
+      'stormgray':'#65688B',
+      'equator':'#E0C358',
+      'mandy':'#E05858',
+
+      // '#58E07F":remote
+      // '#65688B': part time
+      // '#E0C358': contract
+      // '#E05858': freelance
+      
       'vulcan':'#121721',
       'anakiwa' :'#9dcdff',
       'baymany':'#21437d',

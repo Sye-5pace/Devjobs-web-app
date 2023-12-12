@@ -18,7 +18,7 @@
           <form [formGroup]="filterForm"  class="h-[5rem] desktop:w-full desktop:children:flex-[33%] desktop:px-0 tablet:gap-3  <!-- [#E6C033] -->   tablet:children:px-2 desktop:children:px-6 px-3 flex flex-row  items-center mobile:hidden">
             <div class="flex flex-row items-center h-full gap-1 border-r border-[#6e8096]">
               <label for="sort-title">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke-width="7"  class="w-8 h-8 cursor-pointer fill-royal-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke-width="7"  class="w-8 h-8 cursor-pointer fill-royalblue">
                   <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
                 </svg>
               </label>
@@ -26,30 +26,58 @@
             </div>
             <div class="flex flex-row items-center h-full gap-1 border-r border-solid border-[#6e8096]">
               <label for="sort-location">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-royal-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-royalblue">
                   <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
                 </svg>
               </label>
               <input id="sort-location" type="text" formControlName="location" placeholder="Filter by location..."   class="text-[1.3rem] w-full focus:outline-none text-[#6e8096]">
             </div>
-            <div class="flex items-center h-full tablet:gap-2 desktop:gap-4 ">
-              <input id="fulltime-checked" name="fulltime" formControlName ="fulltime" type="checkbox" class="w-5 h-5 checked:royal-blue">
-              <label for="fulltime-checked" class="text-[1.3rem] font-semibold">
-                Full Time
-              </label>
-              <button type="submit" [disabled]="filterForm.invalid" (click)="onSubmit()"   class="hover:bg-baymany desktop:ml-5 tablet:ml-2 bg-royalblue text-[#fff] h-12 px-4 rounded-md font-semibold desktop:w-[9.8rem]"  >Search</button>
+            <div class="flex items-center h-full tablet:gap-2  ">
+              <div class="flex  gap-1 w-full">
+                <div class="flex  gap-1 items-center w-full">
+                  <input id="fulltime-checked" name="fulltime" formControlName ="fulltime" type="checkbox" class="w-4 h-4 checked:royal-blue">
+                  <label for="fulltime-checked" class="text-[1rem] font-medium">
+                    Full Time
+                  </label>
+                </div>
+                <div class="flex  gap-1 items-center w-full">
+                  <input id="parttime-checked" name="parttime" formControlName ="parttime" type="checkbox" class="w-4 h-4 checked:equator">
+                  <label for="parttime-checked" class="text-[1rem] font-medium">
+                   Part Time
+                  </label>
+                </div>
+                <div class="flex  gap-1 items-center">
+                  <input id="contract-checked" name="contract" formControlName ="contract" type="checkbox" class="w-4 h-4 checked:stormgray">
+                  <label for="contract-checked" class="text-[1rem] font-medium">
+                   Contract
+                  </label>
+                </div>
+                <div class="flex  gap-1 items-center">
+                  <input id="freelance-checked" name="freelance" formControlName ="freelance" type="checkbox" class="w-4 h-4 checked:mandy">
+                  <label for="freelance-checked" class="text-[1rem] font-medium">
+                   Freelance
+                  </label>
+                </div>
+
+
+              </div>
+              <button type="submit"  (click)="onSubmit()"   class="hover:bg-baymany desktop:ml-5 tablet:ml-2 bg-royalblue text-[#fff] h-12 px-4 rounded-md font-semibold desktop:w-[9.8rem]"  >Search</button>
             </div>
           </form>
       </section>
   </header>
   <main  class="grid mx-16 mt-6 mb-10 gap-y-12 tablet:gap-y-8">
     <section  class="grid desktop:grid-cols-3 tablet:grid-cols-2 gap-x-6 gap-y-12 mobile:gap-y-16">
-      <div *ngFor="let job of jobsData" class="flex flex-col pl-8 bg-[#fff] gap-y-9 pb-6 rounded-[0.5rem] ">
+      <div *ngFor="let job of filteredJobs" class="flex flex-col pl-8 bg-[#fff] gap-y-9 pb-6 rounded-[0.5rem] ">
         <img [src]="job.logo" alt="job-logo" class="w-[4rem] h-[4rem] -mt-7"/>
         <div class="flex flex-col gap-y-2">
-          <div class="flex items-center text-[#6f809b] gap-2"> 
+          <div class="flex items-center text-[#6f809b] gap-2">
             {{ job.postedAt }}
-            <div class="w-2 h-2 bg-[#6f809b] rounded-full"></div>
+            <div  *ngIf="job.contract === 'Full Time'"  class="w-2 h-2 bg-royalblue rounded-full"></div>
+            <!-- <div  *ngIf="job.contract === 'Remote'"  class="w-2 h-2 bg-pastelgreen rounded-full"></div> -->
+            <div  *ngIf="job.contract === 'Part Time'"  class="w-2 h-2 bg-equator rounded-full"></div>
+            <div  *ngIf="job.contract === 'Contract'"  class="w-2 h-2 bg-stormgray rounded-full"></div>
+            <div  *ngIf="job.contract === 'Freelance'"  class="w-2 h-2 bg-mandy rounded-full"></div>
             {{ job.contract }}
           </div>
           <h2 class="text-vulcan text-[1.3rem] hover:text-anakiwa cursor-pointer">{{ job.position }}</h2>
