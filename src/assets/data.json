@@ -350,7 +350,7 @@
     "company": "Tech Innovators Inc.",
     "logo": "./assets/companys/shortly.svg",
     "link": "techinnovators.com",
-    "position": "Full-stack Developer",
+    "position": "Fullstack Developer",
     "postedAt": "2w ago",
     "contract": "Full Time",
     "location": "Remote",
@@ -505,6 +505,186 @@
     "contract": "Contract",
     "location": "New York, USA",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, reiciendis totam, magnam voluptatibus ut veniam harum voluptatem eaque ab tempora eius iusto dignissimos labore? Assumenda quam natus beatae sapiente repellat neque ea aspernatur cumque rem esse? Sapiente soluta repellat earum iusto nulla! Totam optio nobis laborum nemo tempora, quod fugiat.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "companySite": "#",
+    "company": "CloudCraft Solutions",
+    "logo": "./assets/companys/cloudcraft-solutions.svg",
+    "link": "cloudcraftsolutions.com",
+    "position": "Cloud Architect",
+    "postedAt": "3w ago",
+    "contract": "Full Time",
+    "location": "Palo Alto",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore odit commodi atque velit voluptates quas, rerum fuga, repellendus ipsum, pariatur impedit quae saepe illum. Consequuntur facere dolorem rerum ullam.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "companySite": "#",
+    "company": "Mobile Solutions Corp.",
+    "logo": "./assets/companys/mobile-solutions.svg",
+    "link": "mobilesolutionscorp.com",
+    "position": "iOS Developer",
+    "postedAt": "2d ago",
+    "contract": "Freelance",
+    "location": "Global",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus alias dolorum nostrum facere iste voluptate voluptatem quia aut exercitationem a, expedita debitis id eaque odio, adipisci totam ipsa tempore! Voluptatem.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "companySite": "#",
+    "company": "AI Innovators Tech",
+    "logo": "./assets/companys/ai-innovators-tech.svg",
+    "link": "aiinnovatorstech.com",
+    "position": "AI Research Scientist",
+    "postedAt": "1mo ago",
+    "contract": "Full Time",
+    "location": "Remote",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facilis accusantium, nobis placeat sunt, at aperiam autem fuga doloremque deserunt corrupti. Officiis, maxime. Quisquam autem facilis animi officia aspernatur molestias.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "companySite": "#",
+    "company": "E-commerce Innovations",
+    "logo": "./assets/companys/ecommerce-innovations.svg",
+    "link": "ecommerceinnovations.com",
+    "position": "Senior Frontend Developer",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "On-site",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, architecto doloribus vel maiores reprehenderit distinctio facere quam temporibus ratione eaque ut sunt, fuga natus aliquam commodi. Consequatur ea fugiat dolore.",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "companySite": "#",
+    "company": "CyberSecurity Solutions",
+    "logo": "./assets/companys/cybersecurity-solutions.svg",
+    "link": "cybersecuritysolutions.com",
+    "position": "Cybersecurity Analyst",
+    "postedAt": "3d ago",
+    "contract": "Contract",
+    "location": "Remote",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptatem repudiandae aliquam provident quod ut facilis nesciunt inventore accusantium incidunt molestiae suscipit deserunt dignissimos, sequi nostrum perspiciatis error voluptatum minima!",
+    "requirements": {
+      "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "reqItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    },
+    "responsibility": {
+      "resTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
+      "resItem": [
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti.",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, corrupti."
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "companySite": "#",
+    "company": "HealthTech Innovations",
+    "logo": "./assets/companys/healthtech-innovations.svg",
+    "link": "healthtechinnovations.com",
+    "position": "Health Informatics Specialist",
+    "postedAt": "1mo ago",
+    "contract": "Full Time",
+    "location": "On-site",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vel itaque, saepe repudiandae tempora rerum omnis voluptatum iste id libero eos perferendis exercitationem autem eligendi aliquid delectus, eius laboriosam. Aperiam.",
     "requirements": {
       "reqTitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur earum totam error aliquam explicabo aspernatur, ratione fugit dolorem, porro est commodi modi ipsam at eos hic optio quasi? Est!",
       "reqItem": [
